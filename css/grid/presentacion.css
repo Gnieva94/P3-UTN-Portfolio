@@ -1,7 +1,10 @@
 .grid-presentacion{
     display: flex;
     justify-content: space-around;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    /* height: calc(100vh - 7rem); */
+    height: 100vh;
+    /* background: url() center/cover; */
 }
 .presentacion-titulo{
     width: 50%;
@@ -25,11 +28,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../../imgs/icons8-empire-50.svg) no-repeat center/cover;
 }
 .presentacion-img img{
     height: 30rem;
     width: 30rem;
-    margin: 5rem 0;
+    margin: 15rem 0;
     border: 5px solid #000;
     border-radius: 50%;
 }

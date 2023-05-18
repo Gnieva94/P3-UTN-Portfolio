@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/grid/grid.css">
     <link rel="stylesheet" href="css/grid/header.css">
     <link rel="stylesheet" href="css/grid/presentacion.css">
+    <link rel="stylesheet" href="css/grid/infogeneral.css">
+    <link rel="stylesheet" href="css/grid/conocimiento.css">
+    <link rel="stylesheet" href="css/grid/proyecto.css">
+    <link rel="stylesheet" href="css/grid/formulario.css">
+    <link rel="stylesheet" href="css/grid/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
@@ -23,15 +28,15 @@
                     <label for="">GNIEVASSJ</label>
                 </div>
                 <ul class="header-nav-links">
-                    <li><a href="#">Presentación</a></li>
-                    <li><a href="#">Info General</a></li>
-                    <li><a href="#">Conocimientos</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#presentacion">Presentación</a></li>
+                    <li><a href="#infogeneral">Info General</a></li>
+                    <li><a href="#conocimiento">Conocimientos</a></li>
+                    <li><a href="#proyecto">Proyectos</a></li>
+                    <li><a href="#formulario">Contacto</a></li>
                 </ul>
             </nav>
         </header>
-        <section class="grid-presentacion">
+        <section id="presentacion" class="grid-presentacion">
             <div class="presentacion-titulo">
                 <h1>NIEVA GUSTAVO</h1>
                 <p>Programador</p>
@@ -40,33 +45,81 @@
                 <img src="imgs/FOTOPA.jpg" alt="Imagen Personal">
             </div>
         </section>
-        <section class="grid-infoGeneral"></section>
-        <section class="grid-conocimiento"></section>
-        <section class="grid-proyecto"></section>
-        <section>
-            <div></div>
-            <div></div>
-            <div></div>
+        <section id="infogeneral" class="grid-infoGeneral">
+            <h2>Sobre mí</h2>
+            <p>Soy estudiante de programación en la Universidad Tecnológica Nacional - Facultad Regional General Pacheco, cursando el 3er cuatrimestre.</p>
         </section>
-        <section class="grid-formulario">
-            <form action="">
+        <section id="conocimiento" class="grid-conocimiento">
+            <div class="conocimiento-titulo">
+                <h2>Conocimientos</h2>
+                <p>Estas son algunas de las tecnologías de las que tengo conocimiento</p>
+            </div>
+            <div class="conocimiento-img">
+                <div>
+                    <img src="imgs/icons8-html-5-100.svg" alt="HTML">
+                    <img src="imgs/icons8-css3-100.svg" alt="CSS">
+                    <img src="imgs/icons8-javascript-144.svg" alt="JavaScript">
+                </div>
+                <div>
+                    <img src="imgs/icons8-c++.svg" alt="C++">
+                    <img src="imgs/icons8-c-sharp-logo.svg" alt="C#">
+                    <img src="imgs/icons8-git.svg" alt="Git">
+                </div>
+            </div>
+        </section>
+        <section id="proyecto" class="grid-proyecto">
+            <div class="proyecto-titulo">
+                <h2>Proyectos</h2>
+                <p>Estos son algunos de los proyectos que he realizado</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="img-card p1">
+                    </div>
+                    <div class="descripcion-card">
+                        <h3>Proyecto 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card p2">
+                    </div>
+                    <div class="descripcion-card">
+                        <h3>Proyecto 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card p3">
+                    </div>
+                    <div class="descripcion-card">
+                        <h3>Proyecto 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="formulario" class="grid-formulario">
+            <form action="" class="formulario-form">
                 <label for="">Nombre</label>
                 <input type="text">
                 <label for="">Apellido</label>
                 <input type="text">
                 <label for="">Mensaje</label>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
-                <button type="submit"></button>
+                <button type="submit">Enviar</button>
             </form>
         </section>
         <footer class="grid-footer">
+            <div>
+                <p>CopyRight</p>
+                <i class="fa-regular fa-copyright"></i>
+            </div>
             <ul>
-                <li><a href="https://github.com/Gnieva94"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/nieva-gustavo-707488228/"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a href="https://www.instagram.com/gnieva.ssj/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://github.com/Gnieva94"><i class="fa-brands fa-github"></i></a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/nieva-gustavo-707488228/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/gnieva.ssj/"><i class="fa-brands fa-instagram"></i></a></li>
             </ul>
-            <p>CopyRight</p>
-            <i class="fa-regular fa-copyright"></i>
         </footer>
     </div>
 </body>

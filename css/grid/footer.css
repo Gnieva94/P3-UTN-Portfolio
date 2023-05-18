@@ -1,0 +1,29 @@
+.grid-footer{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-footer>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-footer>div p, .grid-footer>div>i{
+    margin: 0 2px;
+    font-size: 2rem;
+}
+.grid-footer>ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 25rem;
+}
+.grid-footer>ul li{
+    font-size: 3rem;
+    margin: 0 2rem;
+}
+.grid-footer>ul li a{
+    color: black;
+    text-decoration: none;
+}

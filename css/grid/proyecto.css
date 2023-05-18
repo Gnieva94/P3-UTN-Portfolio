@@ -1,0 +1,63 @@
+.grid-proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.proyecto-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proyecto-titulo h2{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.proyecto-titulo p{
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+.card-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 40rem;
+    border: 1px solid black;
+}
+.img-card{
+    height: 50%;
+    width: 100%;
+}
+.p1{
+    background: #000 url(../../imgs/FOTOPA.jpg) center/cover;
+}
+.p2{
+    background: #000 url(../../imgs/FOTOPA.jpg) center/cover;
+}
+.p3{
+    background: #000 url(../../imgs/FOTOPA.jpg) center/cover;
+}
+.descripcion-card{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.descripcion-card h3{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.descripcion-card p{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}

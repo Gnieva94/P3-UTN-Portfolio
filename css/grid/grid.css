@@ -1,6 +1,6 @@
 .grid-container{
     display: grid;
-    grid-template:7vh repeat(5,1fr) 7vh / 1fr;
+    grid-template:10vh repeat(5,1fr) 10vh / 1fr;
     grid-template-areas: "grid-header"
     "grid-presentacion"
     "grid-infoGeneral"
@@ -13,7 +13,6 @@
 }
 .grid-header{
     grid-area: grid-header;
-    background-color: darksalmon;
 }
 .grid-presentacion{
     grid-area: grid-presentacion;

@@ -18,6 +18,10 @@
     height: 6.5rem;
     width: 7rem;
 }
+.header-logo img:hover{
+    transform: scale(1.5);
+    transition: all 0.7s ease;
+}
 .header-logo label{
     font-size: 2.5rem;
     color: #FFFFFF;
@@ -31,4 +35,7 @@
     color:#FFFFFF;
     font-size: 1.8rem;
     margin-left: 5rem;
+}
+.header-nav-links li a:hover{
+    color: rgb(190, 13, 13);
 }

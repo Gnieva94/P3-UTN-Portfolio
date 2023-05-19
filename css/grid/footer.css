@@ -28,3 +28,10 @@
     color: #fff;
     text-decoration: none;
 }
+.grid-footer>ul li:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+}
+.grid-footer>ul li a:hover{
+    color: rgb(190, 13, 13);
+}

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
 }
 .proyecto-titulo{
     display: flex;
@@ -12,11 +12,11 @@
     align-items: center;
 }
 .proyecto-titulo h2{
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 1rem 0;
 }
 .proyecto-titulo p{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin: 1.5rem 0;
 }
 .card-container{
@@ -31,21 +31,27 @@
     height: 40rem;
     border: 1px solid black;
 }
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
 .img-card{
-    height: 50%;
+    height: 70%;
     width: 100%;
 }
 .p1{
-    background: #000 url(../../imgs/FOTOPA.jpg) center/cover;
+    background: #131212 url(../../imgs/img_proyecto_c++.png);
 }
 .p2{
-    background: #000 url(../../imgs/FOTOPA.jpg) center/cover;
+    background:#ebd8d8 url(../../imgs/icons8-c-sharp-logo.svg);
+    background-size: 100% 100%;
 }
 .p3{
-    background: #000 url(../../imgs/FOTOPA.jpg) center/cover;
+    background: #131212 url(../../imgs/img_web_encriptador.png);
+    background-size: 100% 100%;
 }
 .descripcion-card{
-    height: 50%;
+    height: 30%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -53,11 +59,25 @@
     align-items: center;
     text-align: center;
 }
-.descripcion-card h3{
+.descripcion-card a{
+    text-decoration: none;
+    color: #131212;
     font-size: 1.5rem;
     margin: 1rem 0;
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.descripcion-card a:hover{
+    background: #131212;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.descripcion-card h3{
+    font-size: 2rem;
 }
 .descripcion-card p{
-    font-size: 1.2rem;
-    margin: 1rem 0;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
 }

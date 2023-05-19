@@ -7,26 +7,25 @@
 .formulario-form{
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 100%;
+    max-width: 60rem;
+    padding: 3rem 5rem;
     margin: 2rem 0;
-    padding: 5rem 25rem;
     border-radius: 5rem;
-    /* background-color: antiquewhite; */
+    background-color: #1f1e1e;
 }
 .formulario-form label{
     font-size: 2rem;
-    color: #000;
+    color: beige;
     margin-bottom: 1rem;
 }
 .formulario-form input{
-    width: 100%;
     height: 3rem;
     font-size: 1.5rem;
     padding: 0 1rem;
     margin-bottom: 1rem;
 }
 .formulario-form textarea{
-    width: 100%;
     height: 10rem;
     font-size: 1.5rem;
     padding: 1rem;
@@ -44,4 +43,9 @@
     border-radius: 2rem;
     cursor: pointer;
     align-self: center;
+}
+.formulario-form button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all 0.5s ease;
 }

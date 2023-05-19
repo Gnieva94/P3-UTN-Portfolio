@@ -3,8 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    /* background-color: bisque; */
+    height: 40vh;
 }
 .conocimiento-titulo{
     display: flex;
@@ -13,12 +12,12 @@
     align-items: center;
 }
 .conocimiento-titulo h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     margin: 1rem;
 }
 .conocimiento-titulo p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
     margin: 1rem;
 }
@@ -30,4 +29,8 @@
     width: 10rem;
     height: 10rem;
     margin: 1rem;
+}
+.conocimiento-img img:hover{
+    transform: scale(1.5);
+    transition: all 0.7s ease;
 }

@@ -1,8 +1,9 @@
 .grid-footer{
-    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #1f1e1e;
+    color: #fff;
 }
 .grid-footer>div{
     display: flex;
@@ -24,6 +25,6 @@
     margin: 0 2rem;
 }
 .grid-footer>ul li a{
-    color: black;
+    color: #fff;
     text-decoration: none;
 }

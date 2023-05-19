@@ -28,8 +28,11 @@
         transform: perspective(200px) rotateX(14deg) translateY(800px);
         opacity: 1;
     }
-    65%{
-        opacity: 0.5;
+    50%{
+        opacity: 0.7;
+    }
+    85%{
+        opacity: 0.4;
     }
     100%{
         transform: perspective(200px) rotateX(14deg) translateY(-1000px);
